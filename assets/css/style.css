@@ -12,8 +12,8 @@
 img {
     width: 100%;
     height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
     -o-transition: transform 1s;
@@ -143,6 +143,14 @@ a {
     border-radius: 5px;
 }
 
+.recreation-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
 .img-holder {
     width: 100%;
     height: 100%;
@@ -195,6 +203,71 @@ a {
     rgba(0, 0, 0, 0.2) ), url('../images/zdorove.jpg') center center / cover no-repeat;
 }
 
+.holder-bg-5 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/ozero.jpg') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/ozero.jpg') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/ozero.jpg') center center / cover no-repeat;
+}
+
+.holder-bg-6 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/bushido_park.webp') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/bushido_park.webp') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/bushido_park.webp') center center / cover no-repeat;
+}
+
+.holder-bg-7 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/bushido.webp') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/bushido.webp') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/bushido.webp') center center / cover no-repeat;
+}
+
+.holder-bg-8 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/apadniy.webp') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/apadniy.webp') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/apadniy.webp') center center / cover no-repeat;
+}
+
+.holder-bg-9 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/xfit.jpg') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/xfit.jpg') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/xfit.jpg') center center / cover no-repeat;
+}
+
+.holder-bg-10 {
+    background: -webkit-gradient( linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0.2)) ), url('../images/snejinka.webp') center center / cover no-repeat;
+    background: -o-linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/snejinka.webp') center center / cover no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/snejinka.webp') center center / cover no-repeat;
+}
 
 .img-holder:hover {
     -webkit-transform: scale(1.05);
@@ -299,6 +372,41 @@ a {
     rgba(0, 0, 0, 0.2) ), url('../images/attraction_nefti.jpg') center center / cover no-repeat;
 }
 
+.attraction-bg-11 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/museum.jpg') center center / cover no-repeat;
+}
+
+.attraction-bg-12 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/gallery.jpg') center center / cover no-repeat;
+}
+
+.attraction-bg-13 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/lenin.jpg') center center / cover no-repeat;
+}
+
+.attraction-bg-14 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/jalil.webp') center center / cover no-repeat;
+}
+
+.attraction-bg-15 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/neftyaniki.webp') center center / cover no-repeat;
+}
+
+.attraction-bg-16 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/tukai.jpg') center center / cover no-repeat;
+}
+
+.attraction-bg-17 {
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) ), url('../images/shamsinur.jpg') center center / cover no-repeat;
+}
+
 .cafe-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -334,6 +442,13 @@ a {
     font-size: 13px;
 }
 
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 200px;
+    min-height: 100vh;
+}
+
 footer {
     width: 100%;
     padding: 20px 0;
@@ -347,6 +462,10 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .footer-links {
@@ -362,6 +481,7 @@ footer {
 }
 
 .footer-link {
+    font-size: 18px;
     font-weight: 600;
     -webkit-transition: linear .2s;
     -o-transition: linear .2s;
@@ -436,18 +556,17 @@ body.loader {
 
 .news-container {
     width: 100%;
-    height: 300px;
+    height: 200px;
     transition: linear .15s;
+    margin: 0 auto;
 }
 
-
-
-.news-container:hover {
+.news-container:hover .news-title {
     color: #0d6efd;
     border-radius: 5px;
 }
 
-.news-container:hover > .news-img > img {
+.news-container:hover .news-img img {
     transform: scale(1.05);
 }
 
@@ -462,9 +581,9 @@ body.loader {
     display: -moz-box;
     -moz-box-orient: vertical;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    line-clamp: 3;
+    line-clamp: 2;
     box-orient: vertical;
 
 }
@@ -478,6 +597,45 @@ body.loader {
 
 .news-img {
     border-radius: 5px;
+}
+
+.news-img img {
+    height: 200px;
+}
+
+.news-text {
+    text-align: justify;
+}
+
+.nav-contacts > p {
+    margin: 0;
+}
+
+.navbar-logo-img {
+    height: 40px;
+}
+
+.nav-logo {
+    font-size: 18px;
+}
+
+.tour-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.attraction-filter > button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+.bg-select {
+    background: #0d6efd;
 }
 
 @-webkit-keyframes loading {
@@ -512,8 +670,8 @@ body.loader {
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        -webkit-transform: translate3d(0, 30%, 0);
-        transform: translate3d(0, 30%, 0);
+        -webkit-transform: translate3d(0, 20%, 0);
+        transform: translate3d(0, 20%, 0);
     }
     100% {
         opacity: 1;
@@ -522,7 +680,42 @@ body.loader {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
+    .navbar-logo-img {
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .nav-link {
+        color: #fff;
+        font-weight: 500;
+        transition: linear 0.15s;
+    }
+
+    .nav-link:hover {
+        color: #fff;
+        opacity: 0.7;
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-bg {
+        padding: 0 15px;
+        background: #007aff;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding-bottom: 0;
+    }
+
     .tour-title > p, .tour-number {
         font-size: 40px;
     }
@@ -539,6 +732,10 @@ body.loader {
         width: 90%;
     }
 
+    .footer-link {
+        font-size: 16px;
+    }
+
     .preloader > h1 {
         font-size: 40px;
     }
@@ -550,5 +747,24 @@ body.loader {
 
     .section-with-carousel .carousel-controls {
         display: none;
+    }
+
+    .nav-logo {
+        font-size: 16px;
+    }
+
+    footer {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .recreation-container {
+        height: 350px;
+    }
+
+    .news-container {
+        height: fit-content;
     }
 }
